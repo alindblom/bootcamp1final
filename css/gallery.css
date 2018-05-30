@@ -1,0 +1,75 @@
+.gallery-slideshow {
+    background-color: #000;
+}
+/* First Slideshow */
+.g-slideshow1 {
+    width: 70%;
+    height: 450px;
+    margin: 10px 15%;
+    background-image: url("../img/widowmaker-card1.png");
+    background-size: cover;
+    animation: 12s g-slideshow1 infinite;
+}
+
+@keyframes g-slideshow1 {
+    0% {
+        background-image: url("../img/widowmaker-card1.png");
+    }
+    33% {
+        background-image: url("../img/genji-card1.png");
+    }
+    66% {
+        background-image: url("../img/soldier76-card1.png");
+    }
+    100% {
+        background-image: url("../img/widowmaker-card1.png");
+    }
+}
+/* Second Slideshow*/
+.g-slideshow2 {
+    width: 70%;
+    height: 450px;
+    margin: 10px 15%;
+    background-image: url("../img/dvalucio-card1.png");
+    background-size: cover;
+    animation: 12s g-slideshow2 infinite;
+}
+
+@keyframes g-slideshow2 {
+    0% {
+        background-image: url("../img/dvalucio-card1.png");
+    }
+    33% {
+        background-image: url("../img/mercy-card1.png");
+    }
+    66% {
+        background-image: url("../img/tracer-card2.png");
+    }
+    100% {
+        background-image: url("../img/dvalucio-card1.png");
+    }
+}
+/*Third Slideshow*/
+.g-slideshow3 {
+    width: 70%;
+    height: 450px;
+    margin: 10px 15%;
+    background-image: url("../img/astrid-card1.png");
+    background-size: cover;
+    animation: 12s g-slideshow3 infinite;
+}
+
+@keyframes g-slideshow3 {
+    0% {
+        background-image: url("../img/astrid-card1.png");
+    }
+    33% {
+        background-image: url("../img/emilia-card1.png");
+    }
+    66% {
+        background-image: url("../img/erinrich-card.png");
+    }
+    100% {
+        background-image: url("../img/astrid-card1.png");
+    }
+}

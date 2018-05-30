@@ -1,0 +1,38 @@
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 400px;
+    height: auto;
+    margin: 50px 0 50px 100px;
+    border: 2px solid #073030;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text div {
+    width: 400px;
+    height: 400px;
+    margin: 50px 0 0 0;
+    background-color: #f2f6f9;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 3px #073030;
+}
+
+.about-text h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+.about-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
